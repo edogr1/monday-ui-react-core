@@ -13,7 +13,7 @@ module.exports = plop => {
       {
         type: "add",
         path:
-          "src/components/{{properCase componentName}}/{{properCase componentName}}.jsx",
+          "src/components/{{properCase componentName}}/{{properCase componentName}}.js",
         templateFile: "plop/component/component-js.txt"
       },
       {
